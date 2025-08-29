@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>puzzels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="drag" id="drag">
+        <div class="dragbox">
+            <div class="images" draggable="true" ondragstart="drag(event)"  id="block1" style="--img:url( assets/1.png)"> </div>
+        </div>
+        <div class="dragbox">
+            <div class="images" draggable="true" ondragstart="drag(event)"  id="block2" style="--img:url(assets/2.png)"> </div>
+        </div>
+        <div class="dragbox">
+            <div class="images" draggable="true"ondragstart="drag(event)"   id="block3" style="--img:url(assets/3.png)"> </div>
+        </div>
+        <div class="dragbox">
+            <div class="images" draggable="true" ondragstart="drag(event)"  id="block4" style="--img:url(assets/4.png)"> </div>
+        </div>
+        <div class="dragbox">
+            <div class="images" draggable="true" ondragstart="drag(event)"  id="block5" style="--img:url(assets/5.png)"> </div>
+        </div>
+        <div class="dragbox">
+            <div class="images" draggable="true" ondragstart="drag(event)"  id="block6" style="--img:url(assets/6.png)"> </div>
+        </div>
+        <div class="dragbox">
+            <div class="images" draggable="true" ondragstart="drag(event)"  id="block7" style="--img:url(assets/7.png)"> </div>
+        </div>
+        <div class="dragbox">
+            <div class="images" draggable="true" ondragstart="drag(event)"  id="block8" style="--img:url(assets/8.png)"> </div>
+        </div>
+        <div class="dragbox">
+            <div class="images" draggable="true" ondragstart="drag(event)"  id="block9" style="--img:url(assets/9.png)"> </div>
+        </div>
+    </div>
+
+<div class="board">
+    <div class="dropbox" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+    <div class="dropbox" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+    <div class="dropbox" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+    <div class="dropbox" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+    <div class="dropbox" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+    <div class="dropbox" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+    <div class="dropbox" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+    <div class="dropbox" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+    <div class="dropbox" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+</div>
+
+    <button class="reset" onClick="window.location.reload();">reset puzzle</button>
+  <script src="script.js"> </script>
+   
+ 
+</body>
+</html> 
